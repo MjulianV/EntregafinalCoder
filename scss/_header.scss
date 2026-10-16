@@ -1,0 +1,59 @@
+@use "variables" as *;
+
+.site-nav {
+    background: $color-oscuro;
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    color: $color-claro;
+    font-size: 1.35rem;
+    font-weight: 800;
+    letter-spacing: -.04em;
+
+    span {
+        color: $color-acento;
+    }
+
+    &:hover {
+        color: $color-claro;
+    }
+}
+
+.site-nav .nav-link {
+    color: #d8ded9;
+    font-size: .95rem;
+    padding: .55rem .85rem !important;
+    transition: color .2s ease;
+
+    &:hover,
+    &.active {
+        color: $color-acento;
+    }
+}
+
+.navbar-toggler {
+    border-color: #69716c;
+}
+
+.site-footer {
+    background: $color-oscuro;
+    color: $color-claro;
+    padding: 2rem 0;
+}
+
+.footer-inner {
+    @include flex-center(row, 1.5rem);
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    p {
+        margin: 0;
+        color: #c5ccc7;
+        font-size: .9rem;
+    }
+
+    small {
+        color: #c5ccc7;
+    }
+}

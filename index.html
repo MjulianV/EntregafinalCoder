@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Taller 3D | Impresión 3D a medida</title>
+  <meta name="description"
+    content="Taller de impresión 3D a medida. Creamos piezas, objetos decorativos y proyectos personalizados.">
+  <meta name="keywords" content="impresión 3D, piezas personalizadas, taller 3D, impresión 3D a medida">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark site-nav">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">Taller<span>3D</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuPrincipal">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link active" href="index.html">Inicio</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/servicios.html">Servicios</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/trabajos.html">Trabajos</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/nosotros.html">Nosotros</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-copy" data-aos="fade-up">
+          <p class="eyebrow">DISEÑO · IDEAS · IMPRESIÓN</p>
+          <h1>De una idea a una pieza <span>real.</span></h1>
+          <p>Hacemos impresión 3D para proyectos personales, repuestos y objetos que tenés en mente.</p>
+          <a class="btn btn-accent" href="pages/contacto.html">Hablemos de tu idea</a>
+        </div>
+        <div>
+          <img class="hero-art espacio-imagen" src="assets/banner-bambu-lab-1.webp" alt="Impresora 3D trabajando">
+        </div>
+      </div>
+    </section>
+    <section class="home-gallery section-space" aria-labelledby="galeria-inicio">
+      <div class="container">
+        <div class="section-heading" data-aos="fade-up">
+          <p class="eyebrow">ALGUNAS IDEAS</p>
+          <h2 id="galeria-inicio">Objetos que toman forma</h2>
+          <p>Una pequeña muestra de lo que se puede crear con impresión 3D.</p>
+        </div>
+        <div id="carouselTrabajos" class="carousel slide project-carousel" data-bs-ride="carousel"
+          aria-label="Galería de impresiones 3D">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselTrabajos" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Ver imagen 1"></button>
+            <button type="button" data-bs-target="#carouselTrabajos" data-bs-slide-to="1"
+              aria-label="Ver imagen 2"></button>
+            <button type="button" data-bs-target="#carouselTrabajos" data-bs-slide-to="2"
+              aria-label="Ver imagen 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="gallery-slide gallery-slide-one">
+                <div class="gallery-image-wrap"><img class="gallery-image" src="assets/macetas3d.webp"
+                    alt="Macetas decorativas fabricadas con impresión 3D"></div>
+                <div class="gallery-caption"><span>01 / DECORACIÓN</span>
+                  <h3>Pequeños detalles, grandes cambios</h3>
+                  <p>Macetas y objetos para darle personalidad a tus espacios.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-slide gallery-slide-two">
+                <div class="gallery-image-wrap"><img class="gallery-image" src="assets/soporte3d.webp"
+                    alt="Soporte impreso en 3D para organizar objetos"></div>
+                <div class="gallery-caption"><span>02 / PIEZAS ÚTILES</span>
+                  <h3>Soluciones para todos los días</h3>
+                  <p>Soportes, organizadores y piezas pensadas para su uso.</p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="gallery-slide gallery-slide-three">
+                <div class="gallery-image-wrap"><img class="gallery-image" src="assets/impresora-3d-imprimiendo.webp"
+                    alt="Impresora 3D fabricando una pieza"></div>
+                <div class="gallery-caption"><span>03 / A MEDIDA</span>
+                  <h3>Una idea propia</h3>
+                  <p>Si tenés algo en mente, podemos revisar tu propuesta y pensar cómo llevarla a la impresión.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselTrabajos" data-bs-slide="prev"
+            aria-label="Imagen anterior"><span class="carousel-control-prev-icon" aria-hidden="true"></span></button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselTrabajos" data-bs-slide="next"
+            aria-label="Imagen siguiente"><span class="carousel-control-next-icon" aria-hidden="true"></span></button>
+        </div>
+
+        <div class="gallery-link"><a class="btn btn-accent" href="pages/trabajos.html">Ver trabajos</a></div>
+      </div>
+    </section>
+    <section class="callout">
+      <div class="container callout-inner">
+        <div>
+          <p class="eyebrow">¿TENÉS UNA IDEA?</p>
+          <h2>La podemos hacer juntos.</h2>
+        </div><a class="btn btn-outline-light" href="pages/contacto.html">Contactame</a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="navbar-brand" href="index.html">Taller<span>3D</span></a>
+      <p>Impresión 3D a medida · Buenos Aires</p><small>© 2026 Taller 3D</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init({ once: true, duration: 650 });</script>
+</body>
+
+</html>
